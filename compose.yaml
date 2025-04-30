@@ -1,0 +1,6 @@
+﻿services:
+  testcqrs:
+    image: testcqrs
+    build:
+      context: .
+      dockerfile: TestCQRS/Dockerfile
